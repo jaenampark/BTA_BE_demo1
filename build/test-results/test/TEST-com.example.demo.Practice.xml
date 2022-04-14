@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.demo.Practice" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-14T22:17:39" hostname="DESKTOP-2H2PAQ3" time="0.24">
+  <properties/>
+  <testcase name="asyncUpperCaseTest" classname="com.example.demo.Practice" time="0.24"/>
+  <system-out><![CDATA[07:17:39.668 [Test worker] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+07:17:39.719 [Test worker] INFO reactor.Flux.Repeat.1 - onSubscribe(FluxRepeat.RepeatSubscriber)
+07:17:39.724 [Test worker] INFO reactor.Flux.Repeat.1 - request(unbounded)
+07:17:39.766 [boundedElastic-1] INFO reactor.Flux.Repeat.1 - onNext(GOOGLE)
+07:17:39.767 [boundedElastic-1] INFO reactor.Flux.Repeat.1 - onNext(STACKOVERFLOW)
+07:17:39.768 [boundedElastic-2] INFO reactor.Flux.Repeat.1 - onNext(GOOGLE)
+07:17:39.768 [boundedElastic-2] INFO reactor.Flux.Repeat.1 - onNext(STACKOVERFLOW)
+07:17:39.769 [boundedElastic-2] INFO reactor.Flux.Repeat.1 - onComplete()
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

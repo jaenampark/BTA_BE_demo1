@@ -1,0 +1,8 @@
+W07:17:39.668 [Test worker] DEBUG reactor.util.Loggers - Using Slf4j logging framework
+b07:17:39.719 [Test worker] INFO reactor.Flux.Repeat.1 - onSubscribe(FluxRepeat.RepeatSubscriber)
+L07:17:39.724 [Test worker] INFO reactor.Flux.Repeat.1 - request(unbounded)
+M07:17:39.766 [boundedElastic-1] INFO reactor.Flux.Repeat.1 - onNext(GOOGLE)
+T07:17:39.767 [boundedElastic-1] INFO reactor.Flux.Repeat.1 - onNext(STACKOVERFLOW)
+M07:17:39.768 [boundedElastic-2] INFO reactor.Flux.Repeat.1 - onNext(GOOGLE)
+T07:17:39.768 [boundedElastic-2] INFO reactor.Flux.Repeat.1 - onNext(STACKOVERFLOW)
+K07:17:39.769 [boundedElastic-2] INFO reactor.Flux.Repeat.1 - onComplete()
